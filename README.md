@@ -46,5 +46,17 @@ This will load the entire project.
 
 ```
 
- ## 5 Ui MockUp :
+## 5 Ui MockUp :
+
+#### Form 1 — Main Dashboard (frmDashboard)
+<img src="imgs/ui-1.png" alt="Login Page" width="1200">
+
+#### Form 2 Form 2 — Product Management (frmProductManagement)
+<img src="imgs/ui-2.png" alt="Login Page" width="1200">
+
+#### Form 3 — Sales (frmSales)
+<img src="imgs/ui-3.png" alt="Login Page" width="1200">
+
+#### Form 4 — Search Product (frmSearchProduct)
+<img src="imgs/ui-3.png" alt="Login Page" width="1200">
 
