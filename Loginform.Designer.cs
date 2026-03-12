@@ -33,6 +33,7 @@
             panel1 = new Panel();
             lbUsername = new Label();
             lbPassword = new Label();
+            btnLogin = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -78,11 +79,23 @@
             lbPassword.TabIndex = 4;
             lbPassword.Text = "Password";
             // 
+            // btnLogin
+            // 
+            btnLogin.BackColor = Color.LightSteelBlue;
+            btnLogin.Location = new Point(433, 277);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(279, 42);
+            btnLogin.TabIndex = 5;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
+            // 
             // Loginform
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnLogin);
             Controls.Add(lbPassword);
             Controls.Add(lbUsername);
             Controls.Add(panel1);
@@ -103,5 +116,6 @@
         private Panel panel1;
         private Label lbUsername;
         private Label lbPassword;
+        private Button btnLogin;
     }
 }
