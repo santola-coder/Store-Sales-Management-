@@ -101,7 +101,7 @@
             Controls.Add(panel1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            ForeColor = Color.RoyalBlue;
+            ForeColor = Color.CornflowerBlue;
             Name = "Loginform";
             Text = "LoginForm";
             Load += Form1_Load;
