@@ -1,3 +1,5 @@
+using Sale_Store_Management.ComponenetForms;
+
 namespace Sale_Store_Management
 {
     internal static class Program
@@ -11,6 +13,7 @@ namespace Sale_Store_Management
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+            //Application.Run(new FormLogin());
             Application.Run(new Loginform());
         }
     }

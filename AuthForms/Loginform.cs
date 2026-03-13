@@ -1,5 +1,6 @@
 using Authentication_Winform.Models;
 using Authentication_Winform.Service;
+using Sale_Store_Management.ComponenetForms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Sale_Store_Management
@@ -29,36 +30,38 @@ namespace Sale_Store_Management
             textBox1.Text = string.Empty;
             textBox2.Text = string.Empty;
         }
+
+
+
         private async void btnLogin_Click(object sender, EventArgs e)
         {
-          
-
             var username = textBox1.Text.Trim();
             var password = textBox2.Text.Trim();
 
             ClearForm();
 
-
-
             try
             {
                 LoginResponse? result = await _authApi.LoginAsync(username, password);
 
-                if (result != null)
-                {
-                    MessageBox.Show("Login successful! Access Token: ");
+                bool isLogged = result != null;
 
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
+                Form nextForm = isLogged ? new MainForm() : new Loginform();
+
+                if (isLogged)
+                {
+                    MessageBox.Show("Login Successful");
+                    nextForm.Show();
+                    this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Login failed. Please check your credentials.");
+                    MessageBox.Show("Login Failed");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred: " + ex.Message);
+                MessageBox.Show(ex.Message);
             }
         }
     }
