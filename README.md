@@ -1,5 +1,5 @@
 # Sale Store Management System
-
+This system is made to manage store.
 ## Requirements
 
 * Visual Studio 2022

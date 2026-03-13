@@ -5,6 +5,8 @@ namespace Sale_Store_Management
         public Form1()
         {
             InitializeComponent();
+
+           
         }
     }
 }
