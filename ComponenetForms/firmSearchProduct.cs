@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Sale_Store_Management.ComponenetForms
 {
-    public partial class MainForm : Form
+    public partial class firmSearchProduct : Form
     {
-        public MainForm()
+        public firmSearchProduct()
         {
             InitializeComponent();
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
