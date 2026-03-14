@@ -51,8 +51,32 @@ This will load the entire project.
 #### Form 1 — Main Dashboard (frmDashboard)
 <img src="imgs/ui-1.png" alt="Login Page" width="1200">
 
+### How to Create Product Form
+> Control
+
+```
+TextBox
+txtName
+txtPrice
+txtQty
+
+Buttons
+btnAdd
+btnUpdate
+btnDelete
+btnSearch
+
+DataGridView
+dataGridProducts
+```
+
 #### Form 2 Form 2 — Product Management (frmProductManagement)
 <img src="imgs/ui-2.png" alt="Login Page" width="1200">
+
+> add Control
+```
+
+```
 
 #### Form 3 — Sales (frmSales)
 <img src="imgs/ui-3.png" alt="Login Page" width="1200">
