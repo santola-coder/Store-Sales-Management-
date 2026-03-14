@@ -14,7 +14,10 @@ namespace Sale_Store_Management
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //Application.Run(new FormLogin());
-            Application.Run(new Loginform());
+            //Application.Run(new firmSearchProduct());
+            //Application.Run(new frmSales());
+            //Application.Run(new MainForm());
+            Application.Run(new FormProductManagement());
         }
     }
 }

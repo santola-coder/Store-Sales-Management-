@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Sale_Store_Management.ComponenetForms
 {
-    public partial class FormProductManagement : Form
+    public partial class frmSales : Form
     {
-        public FormProductManagement()
+        public frmSales()
         {
             InitializeComponent();
         }
 
-        private void panel9_Paint(object sender, PaintEventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmSales_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

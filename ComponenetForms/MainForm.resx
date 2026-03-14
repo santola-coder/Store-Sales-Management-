@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,35 +117,45 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-fast-cart-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-fast-cart-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nventory-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\nventory-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-product-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-product-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-search-in-cloud-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-search-in-cloud-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-money-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-money-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-home-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-home-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-exit-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-exit-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-product-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-product-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-delete-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-delete-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-pen-32 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imgs\logo-icon\icons8-pen-32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        etg9w5hAoAwAAAAASUVORK5CYII=
+</value>
   </data>
 </root>
