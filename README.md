@@ -3,13 +3,52 @@ This system is made to manage store.
 ## Requirements
 
 * Visual Studio 2022
-* .NET 6 or later
+* .NET 8 or later
 * SQL Server
 
 ## Setup
 
 ## 1️⃣ Clone the Repository
 
+## 📁Project Structure
+
+The project is organized into several folders to maintain clean architecture.
+
+```
+StoreSalesManagementSystem
+│
+├── Models
+│     Product.cs
+│     Sale.cs
+│
+├── Singleton
+│     DatabaseConnection.cs
+│
+├── Factories
+│     ProductFactory.cs
+│
+├── Repositories
+│     ProductRepository.cs
+│     SaleRepository.cs
+│
+├── Strategy
+│     IPaymentStrategy.cs
+│     CashPayment.cs
+│     CardPayment.cs
+│
+├── Observer
+│     IObserver.cs
+│     ProductNotifier.cs
+│
+├── Forms
+│     frmDashboard.cs
+│     frmProductManagement.cs
+│     frmSales.cs
+│     frmSearchProduct.cs
+│
+└── Program.cs
+
+```
 ```
 git clone https://github.com/yourusername/Sale_Store_Management.git
 
