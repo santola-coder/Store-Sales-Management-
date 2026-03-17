@@ -21,24 +21,26 @@ StoreSalesManagementSystem
 │     Product.cs
 │     Sale.cs
 │
-├── Singleton
+├── Data
 │     DatabaseConnection.cs
-│
-├── Factories
-│     ProductFactory.cs
 │
 ├── Repositories
 │     ProductRepository.cs
-│     SaleRepository.cs
 │
-├── Strategy
-│     IPaymentStrategy.cs
-│     CashPayment.cs
-│     CardPayment.cs
+├── DesignPatterns
+│     Singleton
+│          DatabaseConnection.cs
 │
-├── Observer
-│     IObserver.cs
-│     ProductNotifier.cs
+│     Factory
+│          ProductFactory.cs
+│
+│     Strategy
+│          IPaymentStrategy.cs
+│          CashPayment.cs
+│
+│     Observer
+│          IObserver.cs
+│          ProductNotifier.cs
 │
 ├── Forms
 │     frmDashboard.cs
